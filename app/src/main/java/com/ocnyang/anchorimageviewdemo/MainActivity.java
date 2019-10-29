@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        anchorImageView = ((CustomAnchorImageView) findViewById(R.id.anchor_image_view));
+        anchorImageView = ((AnchorImageView) findViewById(R.id.anchor_image_view));
         anchorImageView.setAnchorOnClickListener(new AnchorImageView.OnAnchorClickListener() {
             @Override
             public void onAnchorClick(View view, ViewGroup viewGroup, Object tag, Object previousTag) {

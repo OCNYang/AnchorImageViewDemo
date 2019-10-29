@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="point_img1_size">50dp</dimen>
+    <dimen name="point_img1_border">15dp</dimen>
+    <dimen name="point_img2_border">15dp</dimen>
+
+    <dimen name="point_img3_size">55dp</dimen>
+    <dimen name="point_img3_border">17.5dp</dimen>
+    <dimen name="point_img4_border">17.5dp</dimen>
+
+    <dimen name="point_img5_size">60dp</dimen>
+    <dimen name="point_img5_border">20dp</dimen>
+    <dimen name="point_img6_border">20dp</dimen>
+
+    <dimen name="point_img7_size">65dp</dimen>
+    <dimen name="point_img7_border">22.5dp</dimen>
+    <dimen name="point_img8_border">22.5dp</dimen>
+
+    <dimen name="point_img9_size">25dp</dimen>
+    <dimen name="point_img9_border">5dp</dimen>
+    <dimen name="point_img10_border">5dp</dimen>
+
+    <dimen name="point_img11_size">25dp</dimen>
+    <dimen name="point_img11_border">2.5dp</dimen>
+    <dimen name="point_img12_border">2.5dp</dimen>
+
+    <dimen name="point_img13_size">25dp</dimen>
+    <dimen name="point_img13_border">0dp</dimen>
+</resources>

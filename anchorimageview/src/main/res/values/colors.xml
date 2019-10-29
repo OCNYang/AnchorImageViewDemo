@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="point_img1_border_color">#aaFF0000</color>
+    <color name="point_img2_border_color">#88FF0000</color>
+
+    <color name="point_img3_border_color">#88FF0000</color>
+    <color name="point_img4_border_color">#66FF0000</color>
+
+    <color name="point_img5_border_color">#66FF0000</color>
+    <color name="point_img6_border_color">#44FF0000</color>
+
+    <color name="point_img7_border_color">#44FF0000</color>
+    <color name="point_img8_border_color">#22FF0000</color>
+
+    <color name="point_img9_border_color">@android:color/darker_gray</color>
+    <color name="point_img10_border_color">#99aaaaaa</color>
+
+    <color name="point_img11_border_color">#99aaaaaa</color>
+    <color name="point_img12_border_color">#77aaaaaa</color>
+</resources>
