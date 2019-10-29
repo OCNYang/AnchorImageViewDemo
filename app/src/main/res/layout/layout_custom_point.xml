@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPoint"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="25px"
+        android:background="@drawable/shape_bg_custom_tv_point" />
+
+</LinearLayout>

@@ -19,7 +19,7 @@ public class AnchorImageView extends FrameLayout implements View.OnClickListener
     protected ArrayList<? extends IAnchor> points;
     protected FrameLayout layouPoints;
     protected ImageView imgBg;
-    Context mContext;
+    protected Context mContext;
     private OnAnchorClickListener mOnAnchorClickListener;
     private boolean mUseCustomTag;
     private Object previousTag;
