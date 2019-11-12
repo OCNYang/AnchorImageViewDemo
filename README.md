@@ -1,6 +1,6 @@
 # 锚点图片
 
-![示意图](https://raw.githubusercontent.com/OCNYang/AnchorImageViewDemo/master/imgs/part.png?token=AEHTOMRKIW3UTJUMAQ6J7RK5YD6M4)
+![示意图](https://github.com/OCNYang/AnchorImageViewDemo/raw/master/imgs/part.png)
 
 * 根据锚点坐标给图片设置锚点
 * 锚点具有点击事件
