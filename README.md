@@ -13,7 +13,7 @@
 
 # 使用方法
 
-## 引入
+## 1. 引入
 
 **Step 1. Add the JitPack repository to your build file**  
 
@@ -37,7 +37,7 @@ dependencies {
 ```
 
 
-## 具体使用方法
+## 2. 具体使用方法
 
 > 请参考 Demo 源码
 
