@@ -38,8 +38,7 @@ public class AnchorImageView extends FrameLayout implements View.OnClickListener
         initView(context, attrs);
     }
 
-    private void initView(Context context, AttributeSet attrs) {
-
+    protected void initView(Context context, AttributeSet attrs) {
         mContext = context;
 
         View imgPointLayout = inflate(context, R.layout.layout_imgview_point, this);
@@ -60,44 +59,15 @@ public class AnchorImageView extends FrameLayout implements View.OnClickListener
         return layouPoints;
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-    }
-
-    @Override
-    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        super.onSizeChanged(w, h, oldw, oldh);
-    }
-
     public void setImage(int width, int height, String imgUrl) {
         setLayoutParamsWithImageSize(width, height);
 
-        Glide.with(mContext).load(imgUrl).asBitmap().into(imgBg);
+        Glide.with(mContext).load(imgUrl).override(width, height).into(imgBg);
 
         addAnchors(width, height, this);
     }
 
-//    public void setImage(final int screenWidth, final String imgUrl) {
-//        Glide.with(mContext)
-//                .load(imgUrl)
-//                .asBitmap()
-//                .into(new SimpleTarget<Bitmap>() {
-//                    @Override
-//                    public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
-//                        int width = screenWidth;
-//                        int height = resource.getHeight() * screenWidth / resource.getWidth();
-//
-//                        Log.e("线程", Thread.currentThread().getName() + width + "-" + height);
-//
-//                        setLayoutParamsWithImageSize(width, height);
-//                        imgBg.setImageBitmap(resource);
-//                        addAnchors(width, height, AnchorImageView.this);
-//                    }
-//                });
-//    }
-
-    private void setLayoutParamsWithImageSize(int width, int height) {
+    protected void setLayoutParamsWithImageSize(int width, int height) {
         ViewGroup.LayoutParams lp = imgBg.getLayoutParams();
         lp.width = width;
         lp.height = height;
