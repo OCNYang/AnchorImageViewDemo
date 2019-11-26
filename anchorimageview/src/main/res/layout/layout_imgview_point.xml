@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
-        android:scaleType="fitXY" />
+        android:scaleType="centerCrop" />
 
     <FrameLayout
         android:id="@+id/layouPoints"

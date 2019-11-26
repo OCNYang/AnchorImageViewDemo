@@ -48,6 +48,10 @@ public class AnchorImageView extends FrameLayout implements View.OnClickListener
         layouPoints = (FrameLayout) imgPointLayout.findViewById(R.id.layouPoints);
     }
 
+    public Object getPreviousTag() {
+        return previousTag;
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
