@@ -2,6 +2,8 @@
 
 ![示意图](https://github.com/OCNYang/AnchorImageViewDemo/raw/master/imgs/part.png)
 
+**已实现功能**  
+
 * 根据锚点坐标给图片设置锚点
 * 锚点具有点击事件
 * 图片可以放大缩小移动，锚点相对位置不变
@@ -28,11 +30,11 @@ allprojects {
 }
 ```
 	
-**Step 2. Add the dependency**  
+**Step 2. Add the dependency**[![Version Code](https://img.shields.io/badge/Version%20Code-1.3-brightgreen.svg)](https://github.com/OCNYang/AnchorImageViewDemo/releases)    
 
 ```
 dependencies {
-        implementation 'com.github.OCNYang:AnchorImageViewDemo:v1.0'
+        implementation 'com.github.OCNYang:AnchorImageViewDemo:v1.3'
 }
 ```
 
