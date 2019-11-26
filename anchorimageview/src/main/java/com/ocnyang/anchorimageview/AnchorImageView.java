@@ -52,6 +52,10 @@ public class AnchorImageView extends FrameLayout implements View.OnClickListener
         return previousTag;
     }
 
+    public void setPreviousTag(Object previousTag) {
+        this.previousTag = previousTag;
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
