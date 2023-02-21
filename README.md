@@ -1,6 +1,6 @@
 # 锚点图片
 
-![示意图](https://github.com/OCNYang/AnchorImageViewDemo/raw/master/imgs/part.png)
+![示意图](https://cdn.jsdelivr.net/gh/ocnyang/AnchorImageViewDemo@master/imgs/part.png)
 
 **已实现功能**  
 
@@ -11,7 +11,7 @@
 
 # Demo 效果
 
-![Demo 效果](https://github.com/OCNYang/AnchorImageViewDemo/raw/master/imgs/demo.gif)
+![Demo 效果](https://cdn.jsdelivr.net/gh/ocnyang/AnchorImageViewDemo@master/imgs/demo.gif)
 
 # 使用方法
 
